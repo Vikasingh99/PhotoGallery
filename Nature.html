@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Nature Gallery
+    </title>
+    <link rel="stylesheet" href="lightbox.min.css">
+    <script src="lightbox-plus-jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+</head>
+
+<body bgcolor="black">
+    <div id="mySidenav" class="sidenav">
+        <a href="wild.html" id="Nature">Wild-life</a>
+        <a href="index.html" id="wild">Indian Temples</a>
+      </div>
+      
+    <h1><a href="#" class="hover">Nature Gallery</a></h1>
+    <div class="gallery">
+        <a href="pic41.jpeg" data-lightbox="mygallery" data-title="Nature"><img src="pic41.jpeg"></a>
+        <a href="pic42.jpeg" data-lightbox="mygallery" data-title="Nature"><img src="pic42.jpeg"></a>
+        <a href="pic43.jpeg" data-lightbox="mygallery" data-title="Nature"><img src="pic43.jpeg"></a>
+        <a href="pic44.jpeg" data-lightbox="mygallery" data-title="Nature"><img src="pic44.jpeg"></a>
+        <a href="pic45.jpeg" data-lightbox="mygallery" data-title="Nature"><img src="pic45.jpeg"></a>
+        <a href="pic46.jpeg" data-lightbox="mygallery" data-title="Nature"><img src="pic46.jpeg"></a>
+        <a href="pic47.jpeg" data-lightbox="mygallery" data-title="Nature"><img src="pic47.jpeg"></a>
+        <a href="pic48.jpeg" data-lightbox="mygallery" data-title="Nature"><img src="pic48.jpeg"></a>
+        <a href="pic49.jpg" data-lightbox="mygallery" data-title="Nature"><img src="pic49.jpg"></a>
+        <a href="pic50.jpeg" data-lightbox="mygallery" data-title="Nature"><img src="pic50.jpeg"></a>
+        <a href="pic51.jpeg" data-lightbox="mygallery" data-title="Nature"><img src="pic51.jpeg"></a>
+        <a href="pic52.jpeg" data-lightbox="mygallery" data-title="Nature"><img src="pic52.jpeg"></a>
+        <a href="pic53.jpeg" data-lightbox="mygallery" data-title="Nature"><img src="pic53.jpeg"></a>
+        <a href="pic54.jpeg" data-lightbox="mygallery" data-title="Nature"><img src="pic54.jpeg"></a>
+        <a href="pic55.jpeg" data-lightbox="mygallery" data-title="Nature"><img src="pic55.jpeg"></a>
+        <a href="pic56.jpeg" data-lightbox="mygallery" data-title="RNature"><img src="pic56.jpeg"></a>
+        <a href="pic57.jpeg" data-lightbox="mygallery" data-title="Nature"><img src="pic57.jpeg"></a>
+        <a href="pic58.jpg" data-lightbox="mygallery" data-title="Nature"><img src="pic58.jpg"></a>
+        <a href="pic59.jpeg" data-lightbox="mygallery" data-title="Nature"><img src="pic59.jpeg"></a>
+        <a href="pic60.jpeg" data-lightbox="mygallery" data-title="Nature"><img src="pic60.jpeg"></a>
+
+    </div>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+            margin: 30px 0 50px;
+        }
+
+        .hover {
+            color: aqua;
+        }
+
+        .hover:hover {
+            cursor: pointer;
+            color: rgb(222, 77, 140);;
+        }
+
+        .gallery {
+            margin: 10px 50px;
+
+        }
+
+        .gallery img {
+            width: 230px;
+            padding: 5px;
+            filter: grayscale(100%);
+            transition: 1s;
+        }
+
+        .gallery img:hover {
+            filter: grayscale(0);
+            transform: scale(1.1);
+        }
+
+        #mySidenav a {
+            position: absolute;
+            right: -80px;
+            transition: 0.3s;
+            padding: 15px;
+            width: 100px;
+            text-decoration: none;
+            font-size: 18px;
+            color: white;
+            border-radius: 5px 5px 5px 5px;
+        }
+
+        #mySidenav a:hover {
+            right: 0;
+        }
+
+        #Nature {
+            top: 20px;
+            background-color: rgb(222, 77, 140);
+        }
+
+        #wild {
+            top: 80px;
+            background-color: skyblue;
+        }
+    </style>
+
+</body>
+
+</html>

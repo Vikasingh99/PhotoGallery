@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Image Gallery App
+    </title>
+    <link rel="stylesheet" href="lightbox.min.css">
+    <script src="lightbox-plus-jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+</head>
+
+<body bgcolor="Grey">
+    <div id="mySidenav" class="sidenav">
+        <a href="Nature.html" id="Nature">Nature Gallery</a>
+        <a href="wild.html" id="wild">Wild-life Gallery</a>
+      </div>
+      
+    <h1><a href="#" class="hover">Indian Temples</a></h1>
+    <div class="gallery">
+        <a href="pic1.jpeg" data-lightbox="mygallery" data-title="Indian Temples"><img src="pic1.jpeg"></a>
+        <a href="pic2.jpeg" data-lightbox="mygallery" data-title="Indian Temples"><img src="pic2.jpeg"></a>
+        <a href="pic3.jpeg" data-lightbox="mygallery" data-title="Indian Temples"><img src="pic3.jpeg"></a>
+        <a href="pic4.jpeg" data-lightbox="mygallery" data-title="Indian Temples"><img src="pic4.jpeg"></a>
+        <a href="pic5.jpeg" data-lightbox="mygallery" data-title="Indian Temples"><img src="pic5.jpeg"></a>
+        <a href="pic6.jpeg" data-lightbox="mygallery" data-title="Indian Temples"><img src="pic6.jpeg"></a>
+        <a href="pic7.jpeg" data-lightbox="mygallery" data-title="Indian Temples"><img src="pic7.jpeg"></a>
+        <a href="pic8.jpeg" data-lightbox="mygallery" data-title="Indian Temples"><img src="pic8.jpeg"></a>
+        <a href="pic9.jpeg" data-lightbox="mygallery" data-title="Indian Temples"><img src="pic9.jpeg"></a>
+        <a href="pic10.jpeg" data-lightbox="mygallery" data-title="Indian Temples"><img src="pic10.jpeg"></a>
+        <a href="pic11.jpeg" data-lightbox="mygallery" data-title="Indian Temples"><img src="pic11.jpeg"></a>
+        <a href="pic12.jpeg" data-lightbox="mygallery" data-title="Indian Temples"><img src="pic12.jpeg"></a>
+        <a href="pic13.jpeg" data-lightbox="mygallery" data-title="Indian Temples"><img src="pic13.jpeg"></a>
+        <a href="pic14.jpeg" data-lightbox="mygallery" data-title="Indian Temples"><img src="pic14.jpeg"></a>
+        <a href="pic15.jpeg" data-lightbox="mygallery" data-title="Indian Temples"><img src="pic15.jpeg"></a>
+        <a href="pic16.jpeg" data-lightbox="mygallery" data-title="Indian Temples"><img src="pic16.jpeg"></a>
+        <a href="pic17.jpeg" data-lightbox="mygallery" data-title="Indian Temples"><img src="pic17.jpeg"></a>
+        <a href="pic18.jpeg" data-lightbox="mygallery" data-title="Indian Temples"><img src="pic18.jpeg"></a>
+        <a href="pic19.jpeg" data-lightbox="mygallery" data-title="Indian Temples"><img src="pic19.jpeg"></a>
+        <a href="pic20.jpeg" data-lightbox="mygallery" data-title="Indian Temples"><img src="pic20.jpeg"></a>
+
+    </div>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+            margin: 30px 0 50px;
+        }
+
+        .hover {
+            color: aqua;
+        }
+
+        .hover:hover {
+            cursor: pointer;
+            color: rgb(222, 77, 140);
+        }
+
+        .gallery {
+            margin: 10px 50px;
+
+        }
+
+        .gallery img {
+            width: 230px;
+            padding: 5px;
+            filter: grayscale(100%);
+            transition: 1s;
+        }
+
+        .gallery img:hover {
+            filter: grayscale(0);
+            transform: scale(1.1);
+        }
+
+        #mySidenav a {
+            position: absolute;
+            right: -80px;
+            transition: 0.3s;
+            padding: 15px;
+            width: 100px;
+            text-decoration: none;
+            font-size: 18px;
+            color: white;
+            border-radius: 5px 5px 5px 5px;
+        }
+
+        #mySidenav a:hover {
+            right: 0;
+        }
+
+        #Nature {
+            top: 20px;
+            background-color: rgb(222, 77, 140);
+        }
+
+        #wild {
+            top: 80px;
+            background-color: skyblue;
+        }
+    </style>
+    <button type="button"></button>
+
+</body>
+
+</html>
